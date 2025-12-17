@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(241, 214, 55, 0.822),
+    rgba(93, 230, 93, 0.747)
+  );
+}
+
+
+h1{
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+p{
+
+font-family:', 'Arial, Arial, sans-serif;
+font-style: italic;
+font-weight:bold ;
+text-decoration: underline;
+
+}
