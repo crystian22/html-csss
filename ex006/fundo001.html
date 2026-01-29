@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+        .quadrado{
+            border: 1px solid black;
+           /* border-radius: ;
+            border-style: ;
+            border-color: ;
+             como eu sou bem squecido, isto e três tag em uma*/
+             border-radius: 10px;
+             width: 300px;
+             height: 300px;
+             display: inline-block;
+             background-color: aquamarine;
+             transition: 1s;
+            
+
+        }
+
+        .quadrado:hover {
+            transform: translateY(-10px);
+            
+        }
+
+        div#q1 {
+            background-image: url("imagens/pattern001.png");
+        }
+
+        div#q2{
+            background-image:linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
