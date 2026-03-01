@@ -1,0 +1,8 @@
+@font-face{
+    font-family:'gloria';
+    src: url(../font/gloria.ttf);
+}
+
+header{
+    font-familly: 'gloria' ;
+}
