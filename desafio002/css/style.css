@@ -1,8 +1,22 @@
-@font-face{
-    font-family:'gloria';
-    src: url(../font/gloria.ttf);
+@font-face {
+    font-family: 'pangolin';
+    src: url(../fonts/pangolin-regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'permanente';
+    src: url(../fonts/PermanentMarker-Regular.ttf) format(truetype);
 }
 
 header{
-    font-familly: 'gloria' ;
+    font-family: 'pangolin';
+}
+
+p {
+    font-family: 'pangolin';
+}
+
+.font2{
+    font-family: 'permanente';
+    color: red;
 }
