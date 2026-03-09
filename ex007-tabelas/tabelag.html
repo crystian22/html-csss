@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes </title>
+</head>
+<style>
+
+    table{
+        border-collapse: collapse;
+        width: 500px;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+
+    td, th {
+        border: 1px solid black;
+    }
+    
+    
+    .linha{
+        background-color: rgba(211, 211, 211, 0.377);
+    }
+
+     
+
+
+
+    </style>
+<body>
+    <table>
+        <thead>
+            <tr class="linha">
+                <th>estado</th>
+                <th>capital</th>
+                <th>polução</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>rio de janeiro</td>
+                <td>300.000.00</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>São Paulo</td>
+                <td>500.000.00</td>
+            </tr>
+            <tr></tr>
+                <td>Rio Grande do Sul</td>
+                <td>Porto Alegre</td>
+                <td>200.000.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="linha" style="text-align: center;">total de polução:1.000.000.00
+            </tr>
+        </tfoot>
+    </table>
+
+    
+
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
