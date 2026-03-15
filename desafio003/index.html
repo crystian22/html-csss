@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .linha{
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+           
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="linha">
+                <th scope="col" rowspan="2">área</th>
+                <th scope="col" rowspan="2">diciplina</th>
+                <th scope="colgroup" colspan="2">notas</th>
+                <th scope="col" rowspan="2">média</th>
+            </tr>
+            <tr class="linha">
+                <th scope="col" >nota 1</th>
+                <th scope="col">nota 2</th>
+            </tr>
+        
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">exatas</th>
+                <td>matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td class=>0.0</td>
+            </tr>
+            <tr class="linha">
+                <th colspan="4" class="linha" style="text-align: left;">média de exatas</th>
+                <td >0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">humanas</th>
+                <td>história</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="linha">
+                <th colspan="4" style="text-align: left;">média de humanas</th>
+                <td>0.0</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr class="linha">
+                <th colspan="4" style="text-align: left;">média geral</th>
+                <td>0.0</td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
