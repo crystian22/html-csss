@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tab em group</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+       
+      }
+      th,td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+        
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      col.cnome{
+        background-color: #ffcccc;
+      }
+      
+      #container{
+        overflow-x: auto;
+      }
+
+      caption{
+        font-size: 1.5em;
+        margin: 10px;
+        font-weight: bold;
+      }
+   
+    
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <table>
+        <colgroup>
+          <col class="cnome" />
+          <col class="csexo"/>
+          <col class="cidade"/>
+          <col class="cprofissão"/>
+        </colgroup>
+      <tr>
+        <th scope="col">nome</th>
+        <th scope="col">sexo</th>
+        <th scope="col">idade</th>
+        <th scope="col">profissão</th>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>Masculino</td>
+        <td>25</td>
+        <td>Engenheiro</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>Feminino</td>
+        <td>30</td>
+        <td>Médica</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>Masculino</td>
+        <td>28</td>
+        <td>Professor</td>
+      </tr>
+      <tr>
+        <td>Ana</td>
+        <td>Feminino</td>
+        <td>22</td>
+        <td>Designer</td>
+      </tr>
+      <tr>
+        <td>Pedro</td>
+        <td>Masculino</td>
+        <td>35</td>
+        <td>Advogado</td>
+      </tr>
+    </table>
+
+    <div id="container">
+        <table>
+            <caption>tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <th>produtos</th>
+                    <th>jan</th>
+                    <th>fev</th>
+                    <th>mar</th>
+                    <th>abr</th>
+                    <th>mai</th>
+                    <th>jun</th>
+                    <th>jul</th>
+                    <th>ago</th>
+                    <th>set</th>
+                    <th>out</th>
+                    <th>nov</th>
+                    <th>dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>tv</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>10</td>
+                </tr>
+                 <tr>
+                    <td>aspirador</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>10</td>
+                </tr>
+                 <tr>
+                    <td>celular</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>10</td>
+                </tr>
+                 <tr>
+                    <td>tablet</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>10</td>
+                </tr>
+                 <tr>
+                    <td>copo</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>10</td>
+                </tr>
+                 <tr>
+                    <td>panelas</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>10</td>
+                </tr>
+                 <tr>
+                    <td>t-shirt</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>10</td>
+                </tr>
+        
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </body>
+</html>
